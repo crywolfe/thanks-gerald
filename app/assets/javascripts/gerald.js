@@ -17,12 +17,7 @@ var app = {
       }).done(function(response){
         $(h1Tag).text(response.key);
       });
-  //   //or  ... NEED TO WORK ON THIS
-  //   $("h1").on("click", app.changeText) {
-  //     $(this).text("Hey Gerald");
-
-  //   }
-});
+    });
   }
 
 }
