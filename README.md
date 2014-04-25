@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/crywolfe/thanks-gerald.svg?branch=master)](https://travis-ci.org/crywolfe/thanks-gerald)
