@@ -13,7 +13,7 @@ describe "Visit Root" do
     it "changes text" do
       visit root_path
       page.find("h1", :text => "Hey Makarena").click
-      expect(page).to have_content("Hey Gerald")
+      expect(page).to have_content("WOW YEHANERAKAM YEH WOW YEHANERAKAM YEH")
 
     end
   end
