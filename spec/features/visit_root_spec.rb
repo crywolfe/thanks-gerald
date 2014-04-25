@@ -16,5 +16,9 @@ describe "Visit Root" do
       expect(page).to have_content("WOW YEHANERAKAM YEH WOW YEHANERAKAM YEH")
 
     end
+    it "loves me" do
+      visit root_path
+      expect(page).to have_content("hi")
+    end
   end
 end
